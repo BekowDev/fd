@@ -1,0 +1,246 @@
+{
+    "common": {
+        "history": "Тарих",
+        "dashboard": "Талдау беті",
+        "login": "Кіру",
+        "logout": "Шығу",
+        "clearHistory": "Тарихты тазалау",
+        "deleteAccount": "Аккаунтты жою",
+        "analysesDone": "Жасалған талдаулар",
+        "noEmail": "Email көрсетілмеген",
+        "confirmClearHistory": "Талдаулар тарихын толық тазалайсыз ба?",
+        "confirmDeleteAccount": "Аккаунт пен бүкіл тарихты қайтарымсыз жоясыз ба?",
+        "confirmDeleteAccountTypeWord": "Жоюды растау үшін мына сөзді енгізіңіз",
+        "confirmDeleteAccountTypeWordMismatch": "Сөз қате енгізілді. Жою тоқтатылды.",
+        "confirmLogout": "Аккаунттан шығасыз ба?",
+        "actionFailed": "Әрекет орындалмады",
+        "insights": "Инсайттар",
+        "loading": "Жүктелуде..."
+    },
+    "dashboard": {
+        "title": "MoodFlow",
+        "subtitle": "Аудитория реакциясын секунд ішінде талдаңыз",
+        "enterLink": "Сілтемені енгізіңіз",
+        "linkPlaceholder": "Telegram / YouTube жазбасының сілтемесін қойыңыз",
+        "startAnalysis": "Талдауды бастау",
+        "analyzing": "Талданып жатыр...",
+        "recentAnalyses": "Соңғы талдаулар",
+        "historyEmpty": "Тарих әзірге бос",
+        "fastMode": "Жылдам режим",
+        "deepMode": "Терең режим",
+        "progressDefault": "Gemini пікірлерді талдап жатыр...",
+        "progressRatioTitle": "Жалпы қатынас",
+        "trendTitle": "Уақыт бойынша көңіл-күй динамикасы",
+        "reactionsTitle": "Жазбаға реакциялар",
+        "analysisSuccess": "Талдау сәтті аяқталды!",
+        "invalidLinkError": "Жазба сілтемесін енгізіңіз",
+        "analysisError": "Талдау қатесі",
+        "noReactionsData": "Реакциялар туралы дерек жоқ"
+    },
+    "historyView": {
+        "title": "Талдау тарихы",
+        "back": "Басты бетке",
+        "empty": "Тарих әзірге бос",
+        "searchPlaceholder": "Сілтеме немесе күн бойынша іздеу...",
+        "comments": "Пікірлер",
+        "positive": "Позитив",
+        "negative": "Негатив"
+    },
+    "login": {
+        "title": "Кіру",
+        "subtitle": "MoodFlow жүйесіне кіріңіз",
+        "subtitleRegister": "MoodFlow аккаунтын жасаңыз",
+        "email": "Email",
+        "password": "Құпиясөз",
+        "name": "Аты",
+        "namePlaceholder": "Атыңыз",
+        "confirmPassword": "Құпиясөзді растау",
+        "confirmPasswordPlaceholder": "Құпиясөзді қайта енгізіңіз",
+        "emailPlaceholder": "user{'@'}example.com",
+        "passwordPlaceholder": "Құпиясөзді енгізіңіз",
+        "submit": "Кіру",
+        "submitRegister": "Аккаунт жасау",
+        "loading": "Кіру...",
+        "loadingRegister": "Тіркелу...",
+        "error": "Кіру мүмкін болмады",
+        "errorRegister": "Тіркелу мүмкін болмады",
+        "switchToRegister": "Аккаунтыңыз жоқ па? Тіркелу",
+        "switchToLogin": "Аккаунтыңыз бар ма? Кіру",
+        "backHome": "Басты бетке оралу",
+        "passwordMismatch": "Құпиясөздер сәйкес келмейді",
+        "registerSuccess": "Тіркелу сәтті аяқталды! Енді кіріңіз."
+    },
+    "commentsTable": {
+        "searchPlaceholder": "Мәтін бойынша іздеу...",
+        "filters": {
+            "all": "Барлық тоналдық",
+            "positive": "🟢 Тек позитив",
+            "negative": "🔴 Тек негатив",
+            "neutral": "⚪️ Бейтарап",
+            "toxic": "☣️ Тек токсик"
+        },
+        "exportButton": "Excel",
+        "printButton": "Басып шығару",
+        "columns": {
+            "author": "Автор",
+            "comment": "Пікір",
+            "aiAnalysis": "AI талдауы"
+        },
+        "toxicBadge": "TOXIC",
+        "empty": "Ештеңе табылмады",
+        "resetFilters": "Сүзгілерді тазалау",
+        "yes": "ИӘ",
+        "no": "Жоқ",
+        "export": {
+            "fileName": "Sentiment_Analysis",
+            "author": "Автор",
+            "text": "Мәтін",
+            "sentiment": "Тоналдық",
+            "confidence": "Сенімділік",
+            "toxicity": "Токсиктік",
+            "date": "Күні"
+        }
+    },
+    "statsCards": {
+        "total": "Барлығы",
+        "totalComments": "Пікірлер саны",
+        "positive": "Позитив",
+        "negative": "Негатив",
+        "neutral": "Бейтарап",
+        "toxic": "Токсик",
+        "toxicityScore": "Токсичность"
+    },
+    "sentimentChart": {
+        "labels": {
+            "positive": "Позитив",
+            "negative": "Негатив",
+            "neutral": "Бейтарап",
+            "toxic": "Токсик"
+        }
+    },
+    "trendChart": {
+        "grouping": "Топтау",
+        "empty": "Дерек жоқ",
+        "tooltip": {
+            "time": "Уақыт"
+        },
+        "datasets": {
+            "positive": "Позитив",
+            "negative": "Негатив",
+            "neutral": "Бейтарап",
+            "toxic": "Токсик"
+        },
+        "frames": {
+            "1m": "1м",
+            "30m": "30м",
+            "1h": "1с",
+            "4h": "4с",
+            "12h": "12с",
+            "1d": "1к"
+        }
+    },
+    "keywordCloud": {
+        "title": "Негізгі тақырыптар",
+        "reset": "Тазалау"
+    },
+    "aiSummary": {
+        "title": "ЖИ интеллектуалды конспектісі",
+        "loading": "Gemini интеллектуалды конспект дайындап жатыр...",
+        "fallback": "Талдау аяқталғаннан кейін қорытынды шығады."
+    },
+    "landing": {
+        "badge": "AI көңіл-күй аналитика платформасы",
+        "titlePrefix": "Әлеуметтік желідегі",
+        "titleAccent": "көңіл-күйді AI арқылы талдаңыз",
+        "subtitle": "MoodFlow Telegram және YouTube пікірлерін талдайды, токсик мазмұнды анықтайды және трендтерді кәсіби dashboard ішінде көрсетеді.",
+        "ctaStart": "Бастау",
+        "ctaDashboard": "Талдау бетін ашу",
+        "ctaDemo": "Демо көру",
+        "featuresTitle": "Неліктен MoodFlow-ды таңдайды",
+        "featuresSubtitle": "Өнім, медиа және қолдау командаларына арналған дайын AI sentiment құралдары.",
+        "features": {
+            "deep": {
+                "title": "Терең AI талдау",
+                "description": "Көп көлемдегі пікірлер үшін масштабталатын пакет талдау арқылы тон, контекст және ниетті анықтау."
+            },
+            "cross": {
+                "title": "Кросс-платформа (Telegram & YouTube)",
+                "description": "Telegram арналарындағы және YouTube пікірталастарындағы деректерді бір аналитика ағынында біріктіру."
+            },
+            "charts": {
+                "title": "Нақты уақыт графиктері",
+                "description": "Уақыт бойынша көңіл-күй өзгерісін интерактивті және түсінікті графиктермен бақылаңыз."
+            },
+            "toxic": {
+                "title": "Токсикті анықтау",
+                "description": "Қауіпті және токсик пікірлерді ерте анықтап, модерация үшін нақты сигналдар беру."
+            }
+        },
+        "aiAnalysis": {
+            "badge": "Қалай жұмыс істейді",
+            "title": "Шикі пікірлерден стратегиялық AI инсайттарға секундтар ішінде",
+            "description": "Жазба сілтемесін енгізіңіз, жүйе тіл, эмоция, контекст және сарказмды өңдеп, нақты sentiment есебін шығарады.",
+            "powered": "Powered by Gemini Pro & Multimodal AI",
+            "processing": "AI Processing...",
+            "cases": {
+                "positive": {
+                    "message": "Уау, бұл мен көрген аналитикаға арналған ең жақсы қосымша! 🚀",
+                    "result": "Sentiment: Positive"
+                },
+                "neutral": {
+                    "message": "Кеше жүйе жаңартылды, жаңа функцияларды тексеріп жатырмын.",
+                    "result": "Sentiment: Neutral"
+                },
+                "toxic": {
+                    "message": "Тағы да бәрі қатып тұр, әзірлеушілер ештеңе істей алмайды ғой! 😡",
+                    "result": "Sentiment: Toxic / Negative"
+                },
+                "sarcasm": {
+                    "message": "Сервер дәл дедлайн алдында құлағанын жақсы көремін, керемет қой! 😍",
+                    "result": "Sentiment: Sarcasm Detected (Negative)"
+                },
+                "dissatisfied": {
+                    "message": "Иә, әрине, қолдау қызметіңіз \"өте жылдам\", бір апта ғана күтіп отырмын.",
+                    "result": "Sentiment: Sarcasm / Dissatisfied"
+                }
+            }
+        },
+        "content": {
+            "sarcasm": {
+                "title": "Сарказм мен нюанстар",
+                "description": "Хабарламалардағы ирония мен жасырын мағынаны түсіну."
+            },
+            "multimodal": {
+                "title": "Мультимодальды қолдау",
+                "description": "Мәтінді ғана емес, видео мен фото мазмұнын терең талдау."
+            },
+            "reasoning": {
+                "title": "ИИ логикасы және конспектілер",
+                "description": "Жүйе пайымдай алады және талқылаулардың қысқаша мазмұнын жасайды."
+            },
+            "multilingual": {
+                "title": "Көптілділік күші",
+                "description": "Қазақ, орыс және ағылшын тілдерін қоса алғанда 100-ден астам тілді қолдау."
+            }
+        },
+        "demo": {
+            "sentiment_label": "Көңіл-күй",
+            "status": {
+                "positive": "Оң",
+                "neutral": "Бейтарап",
+                "toxic": "Токсикті",
+                "sarcasm": "Сарказм анықталды",
+                "irony": "Ирония анықталды"
+            }
+        },
+        "footer": {
+            "description": "Әлеуметтік желілерді талдауға арналған ИИ және көңіл-күй, контекст, трендтерге негізделген шешімдер.",
+            "linksTitle": "Навигация",
+            "features": "Артықшылықтар",
+            "demo": "Демо",
+            "technology": "Технологиялар",
+            "connectTitle": "Байланыс",
+            "github": "GitHub"
+        }
+    }
+}
